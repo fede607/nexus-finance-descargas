@@ -1,6 +1,6 @@
 // Generated at build time (vite.config.ts). Caches only this site's own files.
-const CACHE = 'nexus-finance-35ae97526683';
-const FILES = ["./","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/apple-touch-icon.png","assets/index-CeUF1xqS.js","assets/libsodium-wrappers-mu8b5qCt.js","assets/index-CqEnJSSM.css","assets/instrument-sans-latin-ext-wdth-normal-C5E2Gvlv.woff2","assets/instrument-sans-latin-wdth-normal-BVScPF0l.woff2"];
+const CACHE = 'nexus-finance-1c7e4f2acf16';
+const FILES = ["./","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/apple-touch-icon.png","assets/index-DYSzrUBg.js","assets/libsodium-wrappers-Bu63S78U.js","assets/index-X7bL2B7N.css","assets/instrument-sans-latin-ext-wdth-normal-C5E2Gvlv.woff2","assets/instrument-sans-latin-wdth-normal-BVScPF0l.woff2"];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)));
 });
